@@ -1,0 +1,394 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+
+  <title>Series</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Additional CSS Files -->
+  <link rel="stylesheet" href="assets/css/fontawesome.css">
+  <link rel="stylesheet" href="assets/css/templatemo-cyborg-gaming.css">
+  <link rel="stylesheet" href="assets/css/owl.css">
+  <link rel="stylesheet" href="assets/css/animate.css">
+  <link rel="stylesheet" href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css">
+  <link rel='stylesheet' href='https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css'>
+  <link rel="stylesheet" href="./styles.css">
+
+
+  <style>
+    body {
+      background-color: #1a1a1a;
+      color: #ffffff;
+    }
+
+    .main-banner {
+      background-color: #333333;
+      padding: 60px 0;
+    }
+
+    .search-bar {
+      margin-top: 20px;
+      margin-bottom: 20px;
+    }
+
+    .search-bar input {
+      padding: 10px;
+      margin-right: 10px;
+    }
+
+    .search-bar button {
+      padding: 10px 20px;
+      background-color: #4CAF50;
+      color: #ffffff;
+      border: none;
+      cursor: pointer;
+    }
+
+    .most-popular .item {
+      border: 1px solid #555;
+      padding: 10px;
+      margin: 10px 0;
+    }
+
+    .most-popular img {
+      max-width: 100%;
+      height: auto;
+    }
+  .pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.pagination button {
+    background-color: #ffffff;
+    color: #ff6b81;
+    border: 2px solid #ff6b81;
+    border-radius: 10%;
+    padding: 10px 15px;
+    margin: 0 5px;
+    cursor: pointer;
+    font-weight: bold;
+    outline: none;
+}
+
+.pagination button:hover {
+    background-color: #ff6b81;
+    color: #ffffff;
+}
+
+  </style>
+
+</head>
+
+<body>
+
+  <!-- ***** Preloader Start ***** -->
+  <div id="js-preloader" class="js-preloader">
+    <div class="preloader-inner">
+      <span class="dot"></span>
+      <div class="dots">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
+    </div>
+  </div>
+  <header class="header-area header-sticky">
+    <div class="container">
+      <div class="row">
+        <div class="col-12">
+          <nav class="main-nav">
+            <!-- ***** Logo Start ***** -->
+            <a href="index.html" class="logo">
+              <img src="https://telegra.ph/file/7c08459ef807ef3ac1647.jpg" alt="">
+            </a>
+          <ul class="nav">
+              <li><a href="index.html">Movies</a></li>
+              <li><a href="series.html" class="active">Series</a></li>
+              <li><a href="wallpapers.html">Wallpapers</a></li>
+              <li><a href="mixx.html">Dj mixtapes</a></li>
+              <li><a href="about.html">About<img src="assets/images/profile-header.jpg" alt=""></a></li>
+            </ul>
+            <a class='menu-trigger'>
+              <span>Menu</span>
+            </a>
+            <!-- ***** Menu End ***** -->
+          </nav>
+        </div>
+      </div>
+    </div>
+  </header>
+  <!-- ***** Header Area End ***** -->
+
+  <div class="container">
+    <div class="row">
+      <div class="col-lg-12">
+        <div class="page-content">
+
+          <!-- ***** Banner Start ***** -->
+          <div class="main-banner">
+            <div class="row">
+              <div class="col-lg-7">
+                <div class="header-text">
+                  <h6>Welcome To Nezz Hub</h6>
+                  <h4><em>Download</em> Popular Series Here</h4>
+                  <div class="search-bar">
+                    <input type="text" id="searchInput" placeholder="Search by title">
+                    <button onclick="filterItems()">Search</button>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- ***** Banner End ***** -->
+
+          <!-- ***** Most Popular Start ***** -->
+          <div class="most-popular">
+            <div class="row">
+              <div class="col-lg-12">
+                <div class="heading-section">
+                  <h4><em>series</em></h4>
+                </div>
+                <div>
+                <a href="series/the winter king.html">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="item">
+                        <img src="https://telegra.ph/file/c86844595775e829bf2d6.jpg" alt="poster">
+                        <h4>THE WINTER KING<br><span>2023</span></h4>
+                        <ul>
+                          <li><i class="fa fa-star"></i></li> 5.8</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+                <div>
+                <a href="series/evilive.html">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="item">
+                        <img src="https://telegra.ph/file/69d4e3f73cdd3e1e91b8c.jpg" alt="poster">
+                        <h4>EVILIVE<br><span>2023</span></h4>
+                        <ul>
+                          <li><i class="fa fa-star"></i></li> 8.6</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+                <div>
+                <a href="series/island.html">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="item">
+                        <img src="https://telegra.ph/file/f59c8fc80754f49b79bcd.jpg" alt="">
+                        <h4>ISLAND(aillendaeu)<br><span>2022</span></h4>
+                        <ul>
+                          <li><i class="fa fa-star"></i></li> 6.9</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+                <div>
+                <a href="series/monarch.html">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="item">
+                        <img src="https://telegra.ph/file/7fe66c2b05ae9e79e47ac.jpg" alt="poster">
+                        <h4>MONARCH : legacy of monsters<br><span>2023</span></h4>
+                        <ul>
+                          <li><i class="fa fa-star"></i></li> 7.6</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+                <div>
+                <a href="series/vagabond.html">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="item">
+                        <img src="https://telegra.ph/file/3eccecec8b4fa2ce0408f.jpg" alt="poster">
+                        <h4>vagabond<br><span>2019</span></h4>
+                        <ul>
+                          <li><i class="fa fa-star"></i></li> 8.1</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+                <div>
+                <a href="series/amateotw.html">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="item">
+                        <img src="https://telegra.ph/file/65e147129372ee844591f.jpg" alt="poster">
+                        <h4>A MURDER AT THE END OF THE WORLD<br><span>2023</span></h4>
+                        <ul>
+                          <li><i class="fa fa-star"></i></li> 7.6</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+                <div>
+                <a href="series/bel-air.html">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="item">
+                        <img src="https://telegra.ph/file/49b19e4adf790d34b206a.jpg" alt="bel-air poster">
+                        <h4>BEL-AIR<br><span>2022</span></h4>
+                        <ul>
+                          <li><i class="fa fa-star"></i></li> 6.3</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+                <div>
+                <a href="series/squid game.html">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="item">
+                        <img src="https://telegra.ph/file/d9b7355c2ea6b03db1264.jpg" alt="">
+                        <h4>SQUID GAME 2<br><span>series</span></h4>
+                        <ul>
+                          <li><i class="fa fa-star"></i></li> 6.3</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="series/silo.html">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="item">
+                        <img src="https://telegra.ph/file/e47b16dbc5718f705dbd6.jpg" alt="silo">
+                        <h4>SILO<br><span>series</span></h4>
+                        <ul>
+                          <li><i class="fa fa-star"></i> 6.3</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+              <div>
+                <a href="series/black cake.html">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="item">
+                        <img src="https://telegra.ph/file/3bbfcdef3c023e008548b.jpg" alt="black cake poster">
+                        <h4>BLACK CAKE<br><span>series</span></h4>
+                        <ul>
+                          <li><i class="fa fa-star"></i> 6.5</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+            </div>
+<div>
+                <a href="series/twot.html">
+                  <div class="row">
+                    <div class="col-lg-3 col-sm-6">
+                      <div class="item">
+                        <img src="https://telegra.ph/file/20b76bb123c21660d572d.jpg" alt="poster">
+                        <h4>THE WHEEL OF TIME<br><span>2021</span></h4>
+                        <ul>
+                          <li><i class="fa fa-star"></i></li> 7.1</li>
+                        </ul>
+                      </div>
+                    </div>
+                  </div>
+                </a>
+              </div>
+           <li>
+             <div class="pagination">
+               <button onclick="changePage(-1)">Previous</button>
+               <button onclick="changePage(1)">Next</button> 
+             </li>
+             <br>
+             <br>
+             <br>
+             </div>
+             
+              </div>
+              <div class="col-lg-12">
+                <div class="main-button">
+                  <a href="index.html">back to home</a>
+                </div>
+              </div>
+<li>
+                <br>
+                <br>
+                <br>
+</li>
+<li>
+                <div class="col-lg-12">
+          <div class="main-button">
+            <a href="about.html">About the creator</a>
+          </div>
+          </li>
+        </div>
+            </div>
+          </div>
+        </div>
+<li>
+<br>
+</li>
+        <br>
+        <br>
+<footer>
+          <div class="container">
+            <div class="row">
+              <div class="col-lg-12">
+                <p>Copyright © 2023 All rights reserved</p>
+              </div>
+            </div>
+          </div>
+          <div class="flex-center">
+  <a href="https://github.com/nezzkenya"><i class="fa fa-github fa-4x icon-3d"></i></a>
+  <a href="https://twitter.com/_nezz__"><i class="fa fa-twitter fa-4x icon-3d"></i></a>
+  <a href="https:/instagram.com/_.nezz_"><i class="fa fa-instagram fa-4x icon-3d"></i></a>
+  <a hreg="wa.me/254101468231"><i class="fa fa-whatsapp fa-4x icon-3d"></i></a>
+</div>
+        </footer>
+
+        <!-- Scripts -->
+        <!-- Bootstrap core JavaScript -->
+        <script src="vendor/jquery/jquery.min.js"></script>
+        <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+        <script src="assets/js/isotope.min.js"></script>
+        <script src="assets/js/owl-carousel.js"></script>
+        <script src="assets/js/tabs.js"></script>
+        <script src="assets/js/popup.js"></script>
+        <script src="assets/js/custom.js"></script>
+        <script src="assets/js/searchbar.js"></script>
+
+
+
+  </body>
+</html>
+
